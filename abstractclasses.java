@@ -1,5 +1,3 @@
-/* package codechef; // don't place package name! */
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -7,7 +5,7 @@ import java.io.*;
 /* Name of the class has to be "Main" only if the class is public. */
 abstract class Human{
     public void eat(){
-        
+        System.out.println("humans eat");
     }
     abstract public void speak();
         
@@ -33,7 +31,8 @@ class Codechef
 	{   
 	    Human h1 = new Man();
 	    h1.speak();
-	        
+	    Human h2 = new Man();
+	    h2.eat();
 	    
 		// your code goes here
 	}
